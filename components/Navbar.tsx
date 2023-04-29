@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <div className="fixed w-full h-20 z=[100]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16">
         <Image
           src="/../public/assets/homeicon.png"
           alt="/"
@@ -40,7 +40,9 @@ function Navbar() {
 
       {/* Mobile left-side nav */}
       <div
-        className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/50' : ''}
+        className={
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''
+        }
       >
         <div
           className={
@@ -78,17 +80,15 @@ function Navbar() {
             </ul>
 
             <div className="pt-40">
-              <p className="tracking-widest text-[#7a9d22]">
-                Let&apos;s Connect
-              </p>
+              <p className=" text-[#7a9d22]">Let&apos;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaGithub />
                 </div>
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaRegEnvelope />
                 </div>
               </div>
