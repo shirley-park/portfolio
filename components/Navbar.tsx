@@ -13,23 +13,24 @@ function Navbar() {
 
   return (
     <div className="fixed w-full h-20 z=[100]">
-      <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 opacity-80">
         <Image
           src="/../public/assets/homeicon.png"
           alt="/"
           width="40"
           height="50"
+          className="opacity-80"
         />
-        <div>
+        <div className="text-gray-500 text-opacity-80">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm hover:border-b">About</li>
+              <li className="ml-10 text-md hover:border-b">About</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm hover:border-b">Projects</li>
+              <li className="ml-10 text-md hover:border-b">Projects</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm hover:border-b">Contact</li>
+              <li className="ml-10 text-md hover:border-b">Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
@@ -51,12 +52,13 @@ function Navbar() {
               : 'fixed left-[-100%] top-0 w-[75%] p-10 ease-in duration-500'
           }
         >
-          <div className="flex w-full items-center justify-between">
+          <div className="flex w-full items-center justify-between opacity-80">
             <Image
               src="/../public/assets/homeicon.png"
               alt="/"
               width="40"
               height="50"
+              className="opacity-80"
             />
             <div
               onClick={handleNav}
@@ -66,7 +68,7 @@ function Navbar() {
             </div>
           </div>
 
-          <div className="py-12 flex flex-col">
+          <div className="py-12 flex flex-col text-gray-500 text-opacity-80">
             <ul>
               <Link href="/">
                 <li className="py-4 text-md">About</li>
