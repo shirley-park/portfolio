@@ -21,7 +21,7 @@ function Navbar() {
           height="50"
           className="opacity-80"
         />
-        <div className="text-gray-500 text-opacity-80">
+        <div className="text-gray-600">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-md hover:border-b">About</li>
@@ -68,7 +68,7 @@ function Navbar() {
             </div>
           </div>
 
-          <div className="py-12 flex flex-col text-gray-500 text-opacity-80">
+          <div className="py-12 flex flex-col text-gray-600">
             <ul>
               <Link href="/">
                 <li className="py-4 text-md">About</li>
