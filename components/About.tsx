@@ -6,7 +6,7 @@ function About() {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto w-[50%] h-full flex justify-center items-center">
         <div>
-          <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mb-4">
+          <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mb-4 border-b-2">
             About me
           </h2>
           <p className="py-2 text-gray-500 text-opacity-80 text-lg leading-8">
@@ -29,7 +29,7 @@ function About() {
             learning new languages and skills in an agile development team.
           </p>
           <div>
-            <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mt-12 mb-4">
+            <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mt-12 mb-4 border-b-2">
               Skills
             </h2>
 
@@ -78,7 +78,7 @@ function About() {
               />
             </div>
             <div>
-              <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mt-12 mb-4">
+              <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mt-12 mb-4 border-b-2">
                 In my spare time
               </h2>
             </div>
