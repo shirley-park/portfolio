@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 function About() {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto w-[50%] h-full flex justify-center items-center">
+    <section className="w-full flex items-center">
+      <div className="max-w-[1240px] m-auto w-[80%] md:w-[60%] h-full flex justify-center items-center">
         <div>
           <h2 className="py-2 mb-4 border-b-2">About me</h2>
           <p className="py-2">
@@ -72,16 +72,6 @@ function About() {
 
               <div className="flex flex-col justify-center items-center">
                 <Image
-                  src="/../public/assets/nodejs.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
-                <p className="text-xs pt-3">Node.js</p>
-              </div>
-
-              <div className="flex flex-col justify-center items-center">
-                <Image
                   src="/../public/assets/react.png"
                   alt="/"
                   width="50"
@@ -102,7 +92,27 @@ function About() {
 
               <div className="flex flex-col justify-center items-center">
                 <Image
-                  src="/../public/assets/sqlite3db.png"
+                  src="/../public/assets/nodejs.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                />
+                <p className="text-xs pt-3">Node.js</p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/expressjs.png"
+                  alt="express js logo"
+                  width="90"
+                  height="90"
+                />
+                <p className="text-xs pt-4">Express</p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/sqlite3.png"
                   alt="/"
                   width="50"
                   height="50"
@@ -134,7 +144,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
