@@ -33,49 +33,110 @@ function About() {
               Skills
             </h2>
 
-            <div className="flex justify-between items-center">
-              <Image
-                src="/../public/assets/html.png"
-                alt="/"
-                width="50"
-                height="50"
-                className="opacity-80"
-              />
-              <Image
-                src="/../public/assets/css.png"
-                alt="/"
-                width="50"
-                height="50"
-                className="opacity-80"
-              />
-              <Image
-                src="/../public/assets/js.png"
-                alt="/"
-                width="50"
-                height="50"
-                className="opacity-80"
-              />
-              <Image
-                src="/../public/assets/nodejs.png"
-                alt="/"
-                width="50"
-                height="50"
-                className="opacity-80"
-              />
-              <Image
-                src="/../public/assets/react.png"
-                alt="/"
-                width="50"
-                height="50"
-                className="opacity-80"
-              />
-              <Image
-                src="/../public/assets/redux.png"
-                alt="/"
-                width="50"
-                height="50"
-                className="opacity-80"
-              />
+            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {/* flex justify-between items-center */}
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/html.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  HTML
+                </p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/css.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  CSS
+                </p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/js.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  Javascript
+                </p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/nodejs.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  Node.js
+                </p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/react.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  React.js
+                </p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/redux.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  Redux
+                </p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/SQLite3.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  SQLite3
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/sass2.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                  className="opacity-80"
+                />
+                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
+                  Sass
+                </p>
+              </div>
             </div>
             <div>
               <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mt-12 mb-4 border-b-2">
