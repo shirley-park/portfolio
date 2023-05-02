@@ -6,10 +6,8 @@ function About() {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto w-[50%] h-full flex justify-center items-center">
         <div>
-          <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mb-4 border-b-2">
-            About me
-          </h2>
-          <p className="py-2 text-gray-500 text-opacity-80 text-lg leading-8">
+          <h2 className="py-2 mb-4 border-b-2">About me</h2>
+          <p className="py-2">
             I am a <span className="underline">full-stack developer</span> and
             recent graduate of Dev Academy Aotearoa with a{' '}
             <span className="underline">passion for learning</span> and building
@@ -18,34 +16,28 @@ function About() {
             the ongoing challenge of solving problems and creating seamless user
             experiences.
           </p>
-          <p className="py-2 text-gray-500 text-opacity-80 text-lg leading-8">
+          <p className="py-2">
             I am an adaptable team member, known for my empathy and commitment
             to making a positive impact on those around me.
           </p>
-          <p className="py-2 text-gray-500 text-opacity-80 text-lg leading-8">
+          <p className="py-2">
             I am currently learning <span className="underline">Next.js</span>{' '}
-            and <span className="underline">Typescript</span> to supplement my
-            JavaScript and React skillset and I&apos;m looking forward to
-            learning new languages and skills in an agile development team.
+            to supplement my JavaScript and React skillset and I&apos;m looking
+            forward to learning new languages and skills in an agile development
+            team.
           </p>
           <div>
-            <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mt-12 mb-4 border-b-2">
-              Skills
-            </h2>
+            <h2 className="py-2 mt-12 mb-4 border-b-2">Skills</h2>
 
-            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {/* flex justify-between items-center */}
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-6">
               <div className="flex flex-col justify-center items-center">
                 <Image
                   src="/../public/assets/html.png"
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  HTML
-                </p>
+                <p className="text-xs pt-3">HTML</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
@@ -54,11 +46,8 @@ function About() {
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  CSS
-                </p>
+                <p className="text-xs pt-3">CSS</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
@@ -67,11 +56,18 @@ function About() {
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  Javascript
-                </p>
+                <p className="text-xs pt-3">Javascript</p>
+              </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/typescript.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                />
+                <p className="text-xs pt-3">Typescript</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
@@ -80,11 +76,8 @@ function About() {
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  Node.js
-                </p>
+                <p className="text-xs pt-3">Node.js</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
@@ -93,11 +86,8 @@ function About() {
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  React.js
-                </p>
+                <p className="text-xs pt-3">React.js</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
@@ -106,24 +96,18 @@ function About() {
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  Redux
-                </p>
+                <p className="text-xs pt-3">Redux</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
                 <Image
-                  src="/../public/assets/SQLite3.png"
+                  src="/../public/assets/sqlite3db.png"
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  SQLite3
-                </p>
+                <p className="text-xs pt-3">SQLite3</p>
               </div>
               <div className="flex flex-col justify-center items-center">
                 <Image
@@ -131,17 +115,21 @@ function About() {
                   alt="/"
                   width="50"
                   height="50"
-                  className="opacity-80"
                 />
-                <p className="text-gray-500 text-opacity-80 text-xs pt-3">
-                  Sass
-                </p>
+                <p className="text-xs pt-3">Sass</p>
               </div>
             </div>
             <div>
-              <h2 className="py-2 text-gray-500 text-opacity-80 text-xl font-normal mt-12 mb-4 border-b-2">
-                In my spare time
-              </h2>
+              <h2 className="py-2 mt-12 mb-4 border-b-2">In my spare time</h2>
+              <p className="py-2">You&apos;ll find me:</p>
+              <ul>
+                <li className="pl-2 leading-10">&#9749; drinking coffee</li>
+                <li className="pl-2 leading-10">&#127934; playing tennis</li>
+                <li className="pl-2 leading-10">
+                  &#127880; making balloon animals
+                </li>
+                <li className="pl-2 leading-10">&#128247; taking photos</li>
+              </ul>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ function Navbar() {
   }
 
   return (
-    <div className="fixed w-full h-20 z=[100]">
+    <div className="fixed w-full h-20 z=[100] bg-[#f0f0f0]">
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 opacity-80">
         <Image
           src="/../public/assets/homeicon.png"
