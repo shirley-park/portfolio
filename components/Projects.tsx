@@ -5,7 +5,7 @@ import nook from '../public/assets/projects/nook.png'
 
 function Projects() {
   return (
-    <section className="w-full h-screen">
+    <section id="projects" className="w-full h-screen mt-28">
       <div className="max-w-[1240px] mx-auto w-[80%] md:w-[60%] h-full px-2 py-16">
         <h2 className="py-2 mb-8 border-b-2">Projects</h2>
 

@@ -24,13 +24,13 @@ function Navbar() {
         <div className="text-gray-600">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-md hover:border-b">About</li>
+              <li className="ml-10 hover:border-b">About</li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-md hover:border-b">Projects</li>
+            <Link href="/#projects">
+              <li className="ml-10 hover:border-b">Projects</li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-md hover:border-b">Contact</li>
+            <Link href="/#contact">
+              <li className="ml-10 hover:border-b">Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
@@ -71,28 +71,42 @@ function Navbar() {
           <div className="py-12 flex flex-col text-gray-600">
             <ul>
               <Link href="/">
-                <li className="py-4 text-md">About</li>
+                <li className="py-4">About</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-md">Projects</li>
+              <Link href="/#projects">
+                <li className="py-4">Projects</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-md">Contact</li>
+              <Link href="/#contact">
+                <li className="py-4">Contact</li>
               </Link>
             </ul>
 
             <div className="pt-40">
               <p className=" text-[#7a9d22]">Let&apos;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
-                  <FaLinkedinIn />
-                </div>
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
-                  <FaGithub />
-                </div>
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
-                  <FaRegEnvelope />
-                </div>
+                <a
+                  href="https://www.linkedin.com/in/shirley-p-935b221bb/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/shirley-park"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+                    <FaGithub />
+                  </div>
+                </a>
+                <Link href="/#contact">
+                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+                    <FaRegEnvelope />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

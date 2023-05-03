@@ -11,7 +11,7 @@
     @apply font-light
   }
 
-  p, li {
+  p {
     @apply font-light text-lg leading-8
   }
 
@@ -28,11 +28,11 @@
   }
 
   li {
-    @apply cursor-pointer
+    @apply text-sm cursor-pointer 
   }
 
   button {
-    @apply shadow-xl shadow-gray-200 rounded-xl uppercase bg-gradient-to-r from-[cornflowerblue] to-[#6aa8ce]
+    @apply shadow-xl shadow-gray-200 rounded-full bg-[#7b7b7bc1] 
   }
 }
 
