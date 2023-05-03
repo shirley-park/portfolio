@@ -12,7 +12,7 @@ function Projects() {
         <ProjectItem
           title="Nook"
           projectImage={nook}
-          tech="tech tbc"
+          tech="React, Redux, Auth0, Sass"
           projectUrl="this is the link"
         />
       </div>
