@@ -84,13 +84,13 @@ function Navbar() {
             <div className="pt-40">
               <p className=" text-[#7a9d22]">Let&apos;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
                   <FaLinkedinIn />
                 </div>
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
                   <FaGithub />
                 </div>
-                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
                   <FaRegEnvelope />
                 </div>
               </div>
