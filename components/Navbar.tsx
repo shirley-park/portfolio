@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
@@ -6,24 +6,44 @@ import { FaLinkedinIn, FaGithub, FaRegEnvelope } from 'react-icons/fa'
 
 function Navbar() {
   const [nav, setNav] = useState(false)
+  const [shadow, setShadow] = useState(false)
 
   function handleNav() {
     setNav(!nav)
   }
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true)
+      } else {
+        setShadow(false)
+      }
+    }
+    window.addEventListener('scroll', handleShadow)
+  }, [])
+
   return (
-    <div className="fixed w-full h-20 z=[100] bg-[#f0f0f0]">
+    <div
+      className={
+        shadow
+          ? 'fixed w-full h-20 shadow-md z=[100] bg-[#f0f0f0]'
+          : 'fixed w-full h-20 z=[100] bg-[#f0f0f0]'
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 opacity-80">
-        <Image
-          src="/../public/assets/homeicon.png"
-          alt="/"
-          width="40"
-          height="50"
-          className="opacity-80"
-        />
+        <Link href="/#home">
+          <Image
+            src="/../public/assets/homeicon.png"
+            alt="/"
+            width="40"
+            height="50"
+            className="opacity-80"
+          />
+        </Link>
         <div className="text-gray-600">
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 hover:border-b">About</li>
             </Link>
             <Link href="/#projects">
@@ -53,13 +73,15 @@ function Navbar() {
           }
         >
           <div className="flex w-full items-center justify-between opacity-80">
-            <Image
-              src="/../public/assets/homeicon.png"
-              alt="/"
-              width="40"
-              height="50"
-              className="opacity-80"
-            />
+            <Link href="/#home">
+              <Image
+                src="/../public/assets/homeicon.png"
+                alt="/"
+                width="40"
+                height="50"
+                className="opacity-80"
+              />
+            </Link>
             <div
               onClick={handleNav}
               className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
@@ -70,14 +92,20 @@ function Navbar() {
 
           <div className="py-12 flex flex-col text-gray-600">
             <ul>
-              <Link href="/">
-                <li className="py-4">About</li>
+              <Link href="/#about">
+                <li onClick={() => setNav(false)} className="py-4">
+                  About
+                </li>
               </Link>
               <Link href="/#projects">
-                <li className="py-4">Projects</li>
+                <li onClick={() => setNav(false)} className="py-4">
+                  Projects
+                </li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4">Contact</li>
+                <li onClick={() => setNav(false)} className="py-4">
+                  Contact
+                </li>
               </Link>
             </ul>
 

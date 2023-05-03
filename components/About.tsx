@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 function About() {
   return (
-    <section className="w-full flex items-center">
-      <div className="max-w-[1240px] m-auto w-[80%] md:w-[60%] h-full flex justify-center items-center">
+    <div id="about" className="w-full flex items-center pt-10">
+      <div className="max-w-[1240px] m-auto w-[80%] md:w-[60%] h-full flex justify-center items-center ">
         <div>
-          <h2 className="py-2 mb-4 border-b-2">About me</h2>
-          <p className="py-2">
+          <h2 className="mt-20 py-2 pb-4 mb-4 border-b-2">About me</h2>
+          <p>
             I am a <span className="underline">full-stack developer</span> and
             recent graduate of Dev Academy Aotearoa with a{' '}
             <span className="underline">passion for learning</span> and building
@@ -144,7 +144,7 @@ function About() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

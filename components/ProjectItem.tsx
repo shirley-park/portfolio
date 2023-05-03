@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import ProjectModel from '@/models/models'
+import Link from 'next/link'
 
 function ProjectItem({ title, projectImage, tech, projectUrl }: ProjectModel) {
   return (
     <>
       <a href="#">
-        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:scale-105 ease-in duration-200 cursor-pointer">
+        <div className="flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:scale-105 ease-in duration-200 cursor-pointer">
           <Image
             src={projectImage}
             alt="homepage of nook project"
@@ -27,6 +28,7 @@ function ProjectItem({ title, projectImage, tech, projectUrl }: ProjectModel) {
             Chart your design inspiration and fittings for your home renovation
             projects.
           </p>
+          <Link href={projectUrl}>{projectUrl}</Link>
         </div>
       </a>
     </>
