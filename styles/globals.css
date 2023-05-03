@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body{
-    @apply bg-[#f0f0f0] text-[#7b7b7b] tracking-wide
+    @apply bg-[#fffff] text-[#7b7b7b] tracking-wide
   }
   
   h1, h2, h3, h4, h5 {
@@ -36,7 +36,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-200 rounded-full bg-[#7b7b7bc1] 
+    @apply shadow-xl shadow-gray-200 rounded-full bg-[#a5a5a5d8] 
   }
 }
 

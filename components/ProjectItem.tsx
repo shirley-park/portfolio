@@ -6,31 +6,32 @@ import Link from 'next/link'
 function ProjectItem({ title, projectImage, tech, projectUrl }: ProjectModel) {
   return (
     <>
-      <a href="#">
-        <div className="flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:scale-105 ease-in duration-200 cursor-pointer">
+      <Link href={projectUrl}>
+        <div className="flex items-center justify-center h-auto w-full shadow-lg shadow-gray-400 rounded-xl group hover:scale-105 ease-in duration-200 cursor-pointer">
           <Image
             src={projectImage}
             alt="homepage of nook project"
             className="rounded-md"
           />
         </div>
-
-        <div>
+      </Link>
+      <div>
+        <Link href={projectUrl}>
           <div className="pt-10 flex justify-between items-center">
             <h3>{title}</h3>
             <p className="text-sm">{tech}</p>
           </div>
+        </Link>
 
-          <p className="pt-6 md:text-md">
-            A celebration of the spaces we live in.
-          </p>
-          <p>
-            Chart your design inspiration and fittings for your home renovation
-            projects.
-          </p>
-          <Link href={projectUrl}>{projectUrl}</Link>
-        </div>
-      </a>
+        <p className="pt-6 md:text-md">
+          A celebration of the spaces we live in.
+        </p>
+        <p className="md:text-md mb-8">
+          Chart your design inspiration and fittings for your home renovation
+          projects.
+        </p>
+        <Link href={projectUrl}>View project</Link>
+      </div>
     </>
   )
 }

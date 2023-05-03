@@ -27,8 +27,8 @@ function Navbar() {
     <div
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-md z=[100] bg-[#f0f0f0]'
-          : 'fixed w-full h-20 z=[100] bg-[#f0f0f0]'
+          ? 'fixed w-full h-20 shadow-md z=[100] bg-white'
+          : 'fixed w-full h-20 z=[100] bg-white'
       }
     >
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 opacity-80">

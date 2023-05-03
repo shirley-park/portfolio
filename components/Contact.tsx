@@ -43,7 +43,7 @@ function Contact() {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm hidden">Name</label>
                     <input
-                      className="border-1 rounded-lg p-3 flex border-gray-300 font-light text-sm"
+                      className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
                       type="text"
                       name="name"
                       placeholder="Full name"
@@ -53,7 +53,7 @@ function Contact() {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm hidden">Email</label>
                     <input
-                      className="border-1 rounded-lg p-3 flex border-gray-300 font-light text-sm"
+                      className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
                       type="email"
                       name="email"
                       placeholder="Email"
@@ -63,7 +63,7 @@ function Contact() {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm hidden">Subject</label>
                     <input
-                      className="border-1 rounded-lg p-3 flex border-gray-300 font-light text-sm"
+                      className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
                       type="text"
                       name="subject"
                       placeholder="Subject"
@@ -74,7 +74,7 @@ function Contact() {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm hidden">Message</label>
                   <textarea
-                    className="w-full border-1 rounded-lg p-3 border-gray-300 font-light text-sm"
+                    className="w-full border border-gray-300 rounded-lg p-3 font-light text-sm"
                     rows={10}
                     name="message"
                     placeholder="Message"
