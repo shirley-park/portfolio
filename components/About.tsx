@@ -100,12 +100,13 @@ function About() {
                 <p className="text-xs pt-3">Node.js</p>
               </div>
 
-              <div className="flex flex-col justify-center items-center">
+              <div className="flex flex-col justify-between items-center">
                 <Image
                   src="/../public/assets/expressjs.png"
                   alt="express js logo"
                   width="90"
-                  height="90"
+                  height="100"
+                  className="pt-4"
                 />
                 <p className="text-xs pt-4">Express</p>
               </div>
