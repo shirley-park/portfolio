@@ -31,10 +31,9 @@ function nook() {
               </div>
             </div>
 
-            <div className="col-span-1">
+            <div className="col-span-1 h-full">
               <div className="flex justify-between items-center">
                 <h2>Nook</h2>
-                <p className="text-sm">React, Redux, Auth0, Sass</p>
               </div>
 
               <p className="pt-6 md:text-md">
@@ -49,6 +48,16 @@ function nook() {
                 Nook is there to remind you of you of your end goal, as well as
                 keep notes on the elements required to meet that goal.
               </p>
+              <br />
+              <ul className="list-disc">
+                {' '}
+                <h3 className="mb-4">Tech used:</h3>
+                <li className="ml-8 py-2">React</li>
+                <li className="ml-8 py-2">Redux</li>
+                <li className="ml-8 py-2">Node.js</li>
+                <li className="ml-8 py-2">SQLite3</li>
+                <li className="ml-8 py-2">Auth0</li>
+              </ul>
             </div>
           </div>
         </div>

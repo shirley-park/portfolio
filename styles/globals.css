@@ -11,7 +11,7 @@ html {
     @apply bg-[#fffff] text-[#7b7b7b] tracking-wide
   }
   
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5, ul {
     @apply font-light
   }
 
@@ -32,7 +32,7 @@ html {
   }
 
   li {
-    @apply text-sm cursor-pointer 
+    @apply font-light cursor-pointer 
   }
 
   button {
