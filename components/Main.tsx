@@ -6,7 +6,7 @@ function Main() {
       <div className="max-w-[1240px] w-[80%] md:w-[60%] h-full mx-auto flex justify-center items-center ">
         <div>
           <h1 className="py-2 leading-10">
-            Hi, I&apos;m Shirley. A web developer with a strong interest in
+            Hi, I&apos;m Shirley 👋 A web developer with a strong interest in
             building functional and engaging digital experiences.
           </h1>
         </div>

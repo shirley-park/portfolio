@@ -32,7 +32,7 @@ html {
   }
 
   li {
-    @apply font-light cursor-pointer 
+    @apply font-light text-lg cursor-pointer 
   }
 
   button {

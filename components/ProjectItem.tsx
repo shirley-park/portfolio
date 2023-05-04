@@ -18,7 +18,7 @@ function ProjectItem({ title, projectImage, tech, projectUrl }: ProjectModel) {
       <div>
         <Link href={projectUrl}>
           <div className="pt-10 flex justify-between items-center">
-            <h3>{title}</h3>
+            <h3 className="hover:opacity-80">{title}</h3>
             <p className="text-sm">{tech}</p>
           </div>
         </Link>
@@ -30,7 +30,12 @@ function ProjectItem({ title, projectImage, tech, projectUrl }: ProjectModel) {
           Chart your design inspiration and fittings for your home renovation
           projects.
         </p>
-        <Link href={projectUrl}>View project</Link>
+        <Link
+          href={projectUrl}
+          className="hover:pl-1 hover:opacity-80 ease-in duration-200"
+        >
+          View project
+        </Link>
       </div>
     </>
   )

@@ -14,7 +14,6 @@ export default function App({ Component, pageProps }: AppProps) {
     <main className={`${inter.variable} font-sans`}>
       <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </main>
   )
 }
