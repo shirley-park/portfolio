@@ -4,6 +4,12 @@ import Image from 'next/image'
 import nookProjectImage from '../public/assets/projects/nookProjectImage2.png'
 import nookProjectImage4 from '../public/assets/projects/nookProjectImage4.png'
 import { FaGithub } from 'react-icons/fa'
+import tsicon from '../public/assets/imgassets/typescript.png'
+import reacticon from '../public/assets/imgassets/react.png'
+import reduxicon from '../public/assets/imgassets/redux.png'
+import nodeicon from '../public/assets/imgassets/nodejs.png'
+import auth0icon from '../public/assets/imgassets/auth0.png'
+import sqlite3dbicon from '../public/assets/imgassets/sqlite3db.png'
 
 function nook() {
   return (
@@ -72,57 +78,27 @@ function nook() {
             <h3 className="mb-4">Tech used:</h3>
             <div className="grid grid-cols-3 lg:grid-cols-4 gap-8 border-b-2 pb-6">
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/typescript.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={tsicon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">Typescript</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/react.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={reacticon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">React</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/nodejs.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={nodeicon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">Node.js</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/redux.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={reduxicon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">Redux</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/sqlite3db.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={sqlite3dbicon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">SQLite3</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/auth0.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={auth0icon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">Auth0</p>
               </div>
             </div>

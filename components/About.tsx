@@ -1,6 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 
+import htmlicon from '../public/assets/imgassets/html.png'
+import cssicon from '../public/assets/imgassets/css.png'
+import jsicon from '../public/assets/imgassets/js.png'
+import tsicon from '../public/assets/imgassets/typescript.png'
+import reacticon from '../public/assets/imgassets/react.png'
+import reduxicon from '../public/assets/imgassets/redux.png'
+import nodeicon from '../public/assets/imgassets/nodejs.png'
+import expressicon from '../public/assets/imgassets/expressjs.png'
+import sqlite3icon from '../public/assets/imgassets/sqlite3.png'
+import sassicon from '../public/assets/imgassets/sass2.png'
+
 function About() {
   return (
     <div id="about" className="w-full flex items-center pt-10">
@@ -31,78 +42,43 @@ function About() {
 
             <div className="grid grid-cols-3 lg:grid-cols-4 gap-6">
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/html.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={htmlicon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">HTML</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/css.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={cssicon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">CSS</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/js.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={jsicon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">Javascript</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/typescript.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={tsicon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">Typescript</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/react.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={reacticon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">React.js</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/redux.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={reduxicon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">Redux</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/nodejs.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={nodeicon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">Node.js</p>
               </div>
 
               <div className="flex flex-col justify-between items-center">
                 <Image
-                  src="/../public/assets/expressjs.png"
+                  src={expressicon}
                   alt="express js logo"
                   width="90"
                   height="100"
@@ -112,21 +88,11 @@ function About() {
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/sqlite3.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={sqlite3icon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">SQLite3</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/../public/assets/sass2.png"
-                  alt="/"
-                  width="50"
-                  height="50"
-                />
+                <Image src={sassicon} alt="/" width="50" height="50" />
                 <p className="text-xs pt-3">Sass</p>
               </div>
             </div>

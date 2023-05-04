@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub, FaRegEnvelope } from 'react-icons/fa'
+import homeicon from '../public/assets/imgassets/homeicon.png'
 
 function Navbar() {
   const [nav, setNav] = useState(false)
@@ -34,7 +35,7 @@ function Navbar() {
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 opacity-80">
         <Link href="/#home">
           <Image
-            src="/../public/assets/homeicon.png"
+            src={homeicon}
             alt="/"
             width="40"
             height="50"
@@ -83,7 +84,7 @@ function Navbar() {
           <div className="flex w-full items-center justify-between opacity-80">
             <Link href="/#home">
               <Image
-                src="/../public/assets/homeicon.png"
+                src={homeicon}
                 alt="/"
                 width="40"
                 height="50"
