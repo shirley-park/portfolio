@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { FaLinkedinIn, FaGithub, FaRegEnvelope } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 function Contact() {
   return (
-    <div id="contact" className="w-full mt-20">
+    <div id="contact" className="w-full mt-60">
       <div className="max-w-[1240px] mx-auto w-[80%] md:w-[60%] h-full px-2 py-8">
         <h2 className="pb-4 border-b-2">Get in touch</h2>
       </div>
@@ -12,7 +12,7 @@ function Contact() {
       <div className="max-w-[1240px] mx-auto w-[80%] md:w-[60%] lg:w-[50%] h-full px-2">
         <p className="text-md pb-2">
           Feel free to reach out to me on LinkedIn, or drop me a line using the
-          form below. I will get back to you as soon as I can!{' '}
+          form below. I will get back to you as soon as I can 😊{' '}
         </p>
 
         <div className="flex justify-center my-4 w-full pb-6">
