@@ -70,7 +70,16 @@ function nook() {
             <p className="border-b-2 pb-4"></p>
             <br />
             <h3 className="mb-4">Tech used:</h3>
-            <div className="grid grid-cols-3 lg:grid-cols-5 gap-6 border-b-2 pb-6">
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-8 border-b-2 pb-6">
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/../public/assets/typescript.png"
+                  alt="/"
+                  width="50"
+                  height="50"
+                />
+                <p className="text-sm pt-3">Typescript</p>
+              </div>
               <div className="flex flex-col justify-center items-center">
                 <Image
                   src="/../public/assets/react.png"
