@@ -38,7 +38,10 @@ function Contact() {
         <div className="w-full h-full shadow-2xl shadow-gray-400 rounded-xl p-4">
           <div className="flex flex-col lg:p-4 h-full ">
             <section className="p-4">
-              <form action="">
+              <form
+                action="https://getform.io/f/c9f7453f-a2c3-4f4b-945a-485e84b8f114"
+                method="POST"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm hidden">Name</label>
@@ -81,8 +84,12 @@ function Contact() {
                     required
                   ></textarea>
                 </div>
+
                 <div className="flex justify-center">
-                  <button className="w-[40%] p-4 mt-4 font-light text-sm text-white hover:scale-105 ease-in duration-100 shadow-md shadow-gray-400">
+                  <button
+                    className="w-[40%] p-4 mt-4 font-light text-sm bg-slate-400 text-white hover:scale-105 ease-in duration-100 shadow-md shadow-gray-400"
+                    type="submit"
+                  >
                     Send
                   </button>
                 </div>
