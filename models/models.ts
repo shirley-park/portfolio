@@ -5,4 +5,6 @@ export default interface ProjectModel {
   projectImage: StaticImageData
   tech: string
   projectUrl: string
+  intro: string
+  description: string
 }

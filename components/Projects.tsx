@@ -14,8 +14,20 @@ function Projects() {
             projectImage={nookProjectImage}
             tech="React, Redux, Auth0, Sass"
             projectUrl="nook"
+            intro="A celebration of the spaces we live in."
+            description="Chart your design inspiration and fittings for your home renovation projects."
           />
         </div>
+        {/* <div className="p-12 lg:mb-20 bg-[#f5f5f5] rounded-md">
+          <ProjectItem
+            title="Not Salone Del Mobile"
+            projectImage={nookProjectImage}
+            tech="React, Redux, Auth0, Sass"
+            projectUrl="nook"
+            intro="A celebration of the spaces we live in."
+            description="Chart your design inspiration and fittings for your home renovation projects."
+          />
+        </div> */}
       </div>
     </div>
   )

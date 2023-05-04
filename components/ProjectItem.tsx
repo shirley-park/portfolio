@@ -3,7 +3,14 @@ import Image from 'next/image'
 import ProjectModel from '@/models/models'
 import Link from 'next/link'
 
-function ProjectItem({ title, projectImage, tech, projectUrl }: ProjectModel) {
+function ProjectItem({
+  title,
+  projectImage,
+  tech,
+  projectUrl,
+  intro,
+  description,
+}: ProjectModel) {
   return (
     <>
       <Link href={projectUrl}>
@@ -23,13 +30,8 @@ function ProjectItem({ title, projectImage, tech, projectUrl }: ProjectModel) {
           </div>
         </Link>
 
-        <p className="pt-6 md:text-md">
-          A celebration of the spaces we live in.
-        </p>
-        <p className="md:text-md mb-8">
-          Chart your design inspiration and fittings for your home renovation
-          projects.
-        </p>
+        <p className="pt-6 md:text-md">{intro}</p>
+        <p className="md:text-md mb-8">{description}</p>
         <Link
           href={projectUrl}
           className="hover:pl-1 hover:opacity-80 ease-in duration-200"
