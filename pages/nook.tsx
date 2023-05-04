@@ -138,6 +138,9 @@ function nook() {
                 Add a project timeline feature which allows users to set dates
                 for project milestones
               </li>
+              <li className="ml-8 py-2 cursor-default">
+                Add subtle page animations using Framer motion
+              </li>
             </ul>
           </div>
         </div>

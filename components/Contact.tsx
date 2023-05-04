@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 function Contact() {
   return (
-    <div id="contact" className="w-full mt-60">
+    <div id="contact" className="w-full pt-20">
       <div className="max-w-[1240px] mx-auto w-[80%] md:w-[60%] h-full px-2 py-8">
         <h2 className="pb-4 border-b-2">Get in touch</h2>
       </div>
