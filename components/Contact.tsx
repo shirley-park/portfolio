@@ -1,6 +1,6 @@
 import React from 'react'
-
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import Link from 'next/link'
+import { FaLinkedinIn, FaGithub, FaRegEnvelope } from 'react-icons/fa'
 
 function Contact() {
   return (
@@ -34,6 +34,11 @@ function Contact() {
               <FaGithub />
             </div>
           </a>
+          <Link href="/#contact">
+            <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100 ml-12">
+              <FaRegEnvelope />
+            </div>
+          </Link>
         </div>
         <div className="w-full h-full shadow-2xl shadow-gray-400 rounded-xl p-4">
           <div className="flex flex-col lg:p-4 h-full ">
