@@ -33,7 +33,7 @@ function Navbar() {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 opacity-80">
-        <Link href="/#home">
+        <Link href="/#home" scroll={false}>
           <Image
             src={homeicon}
             alt="/"
@@ -44,10 +44,10 @@ function Navbar() {
         </Link>
         <div className="text-gray-600">
           <ul className="hidden md:flex">
-            <Link href="/#about">
+            <Link href="/#about" scroll={false}>
               <li className="ml-10 hover:border-b">About</li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" scroll={false}>
               <li className="ml-10 hover:border-b">Projects</li>
             </Link>
             <a
@@ -57,8 +57,7 @@ function Navbar() {
             >
               <li className="ml-10 hover:border-b">CV</li>
             </a>
-
-            <Link href="/#contact">
+            <Link href="/#contact" scroll={false}>
               <li className="ml-10 hover:border-b">Contact</li>
             </Link>
           </ul>
@@ -77,12 +76,12 @@ function Navbar() {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 w-[75%] p-10 ease-in duration-500'
           }
         >
           <div className="flex w-full items-center justify-between opacity-80">
-            <Link href="/#home">
+            <Link href="/#home" scroll={false}>
               <Image
                 src={homeicon}
                 alt="/"
@@ -101,17 +100,24 @@ function Navbar() {
 
           <div className="py-12 flex flex-col text-gray-600">
             <ul>
-              <Link href="/#about">
+              <Link href="/#about" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4">
                   About
                 </li>
               </Link>
-              <Link href="/#projects">
+              <Link href="/#projects" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4">
                   Projects
                 </li>
               </Link>
-              <Link href="/#contact">
+              <a
+                href="/assets/shirleyparkcv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <li className="py-4">CV</li>
+              </a>
+              <Link href="/#contact" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4">
                   Contact
                 </li>
