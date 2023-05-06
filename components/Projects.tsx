@@ -8,7 +8,7 @@ function Projects() {
     <div id="projects" className="w-full h-full pt-24">
       <div className="max-w-[1240px] mx-auto w-[80%] md:w-[60%] h-full px-2">
         <h2 className="py-2 mb-8 border-b-2">Projects</h2>
-        <div className="p-12 lg:mb-20 bg-[#f5f5f5] rounded-md">
+        <div className="p-14 lg:mb-20 bg-[#f5f5f5] rounded-xl">
           <ProjectItem
             title="Nook"
             projectImage={nookProjectImage}
