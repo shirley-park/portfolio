@@ -30,7 +30,7 @@ function Main() {
                 <FaGithub />
               </div>
             </a>
-            <Link href="/#contact">
+            <Link href="/#contact" scroll={false}>
               <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
                 <FaRegEnvelope />
               </div>
