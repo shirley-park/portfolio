@@ -68,9 +68,9 @@ function nook() {
             </p>
             <br />
             <p>
-              This was my final project for the Dev Academy boocamp, where I was
-              responsible for the whole project timeline from planning, design
-              and development.
+              This was my final project for the Dev Academy bootcamp, where I
+              was responsible for the whole project timeline from planning,
+              design and development.
             </p>
             <br />
             <p className="border-b-2 pb-4"></p>
