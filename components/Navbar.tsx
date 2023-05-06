@@ -51,7 +51,7 @@ function Navbar() {
               <li className="ml-10 hover:border-b">Projects</li>
             </Link>
             <a
-              href="/assets/shirleyparkcv.pdf"
+              href="/assets/shirleyParkCv.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -111,7 +111,7 @@ function Navbar() {
                 </li>
               </Link>
               <a
-                href="/assets/shirleyparkcv.pdf"
+                href="/assets/shirleyParkCv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
