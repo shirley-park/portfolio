@@ -26,7 +26,7 @@ function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="border-2 m-8 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+              <div className="border-2 mx-10 my-4 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
                 <FaGithub />
               </div>
             </a>
