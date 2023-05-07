@@ -25,20 +25,6 @@ function Contact() {
               <FaLinkedinIn />
             </div>
           </a>
-          <a
-            href="https://github.com/shirley-park"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100 ml-12">
-              <FaGithub />
-            </div>
-          </a>
-          <Link href="/#contact">
-            <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100 ml-12">
-              <FaRegEnvelope />
-            </div>
-          </Link>
         </div>
         <div className="w-full h-full shadow-2xl shadow-gray-400 rounded-xl p-4">
           <div className="flex flex-col lg:p-4 h-full ">
@@ -68,16 +54,16 @@ function Contact() {
                       required
                     />
                   </div>
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm hidden">Subject</label>
-                    <input
-                      className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
-                      type="text"
-                      name="subject"
-                      placeholder="Subject"
-                      required
-                    />
-                  </div>
+                </div>
+                <div className="flex flex-col py-2">
+                  <label className="uppercase text-sm hidden">Subject</label>
+                  <input
+                    className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm hidden">Message</label>
