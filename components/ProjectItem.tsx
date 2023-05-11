@@ -14,7 +14,7 @@ function ProjectItem({
   return (
     <>
       <Link href={projectUrl}>
-        <div className="flex items-center justify-center h-auto w-full shadow-md shadow-gray-300 group hover:scale-105 hover:shadow-lg hover:shadow-gray-400   ease-in duration-200 cursor-pointer">
+        <div className="flex items-center justify-center h-auto w-full shadow-md shadow-gray-300 group hover:scale-105 hover:shadow-lg hover:shadow-gray-400 ease-in duration-200 cursor-pointer">
           <Image
             src={projectImage}
             alt="homepage of nook project"

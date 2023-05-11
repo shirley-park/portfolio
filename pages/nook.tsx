@@ -15,7 +15,7 @@ function nook() {
   return (
     <>
       <div id="projects" className="w-full h-screen pt-20">
-        <div className="max-w-[1240px] mx-auto w-[90%] md:w-[80%] h-full px-2 py-16 ">
+        <div className="max-w-[1240px] mx-auto w-[85%] md:w-[80%] h-full px-2 py-16 ">
           <div className="grid lg:grid-cols-2 gap-4">
             <div className="col-span-1 w-full">
               <Image

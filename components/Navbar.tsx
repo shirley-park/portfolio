@@ -32,7 +32,7 @@ function Navbar() {
           : 'fixed w-full h-20 z=[100] bg-white'
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 opacity-80">
+      <div className="flex justify-between items-center w-full h-full px-8 md:px-12 2xl:px-16 opacity-80">
         <Link href="/#home" scroll={false}>
           <Image
             src={homeicon}
@@ -145,8 +145,11 @@ function Navbar() {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href="/#contact">
-                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+                <Link href="/#contact" scroll={false}>
+                  <div
+                    onClick={() => setNav(false)}
+                    className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100"
+                  >
                     <FaRegEnvelope />
                   </div>
                 </Link>
