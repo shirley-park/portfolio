@@ -98,7 +98,7 @@ function Navbar() {
             </div>
           </div>
 
-          <div className="py-12 flex flex-col text-gray-600">
+          <div className="py-8 flex flex-col text-gray-600">
             <ul>
               <Link href="/#about" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4">
@@ -124,7 +124,7 @@ function Navbar() {
               </Link>
             </ul>
 
-            <div className="pt-40">
+            <div className="mt-20">
               <p className=" text-[#7a9d22]">Let&apos;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
