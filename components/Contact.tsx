@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
-import { FaLinkedinIn, FaGithub, FaRegEnvelope } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
+import ContactForm from './ContactForm'
 
 function Contact() {
   return (
@@ -21,16 +21,18 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+            <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-lg hover:shadow-gray-400 ease-in duration-100">
               <FaLinkedinIn />
             </div>
           </a>
         </div>
-        <div className="w-full h-full shadow-2xl shadow-gray-400 rounded-xl p-4">
+        <ContactForm />
+        {/* <div className="w-full h-full shadow-2xl shadow-gray-400 rounded-xl p-4">
           <div className="flex flex-col lg:p-4 h-full ">
             <section className="p-4">
               <form
                 action="https://getform.io/f/c9f7453f-a2c3-4f4b-945a-485e84b8f114"
+                // onSubmit={formSubmit}
                 method="POST"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -78,16 +80,19 @@ function Contact() {
 
                 <div className="flex justify-center">
                   <button
+                    // onClick={handleClick}
+                    role="submit"
                     className="w-[40%] p-4 mt-4 font-light text-sm bg-slate-400 text-white hover:scale-105 ease-in duration-100 shadow-md shadow-gray-400"
                     type="submit"
                   >
-                    Send
+                    {/* Send */}
+        {/* {sending ? <CircularProgress size="1rem" /> : 'Send'}
                   </button>
                 </div>
               </form>
             </section>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

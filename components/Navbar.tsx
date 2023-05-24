@@ -29,7 +29,7 @@ function Navbar() {
       className={
         shadow
           ? 'fixed w-full h-20 shadow-md z=[100] bg-white'
-          : 'fixed w-full h-20 z=[100] bg-white'
+          : 'fixed w-full h-20 z=[100]'
       }
     >
       <div className="flex justify-between items-center w-full h-full px-8 md:px-12 2xl:px-16 opacity-80">
@@ -92,13 +92,13 @@ function Navbar() {
             </Link>
             <div
               onClick={handleNav}
-              className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
+              className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100"
             >
               <AiOutlineClose />
             </div>
           </div>
 
-          <div className="py-8 flex flex-col text-gray-600">
+          <div className="py-8 flex flex-col">
             <ul>
               <Link href="/#about" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4">
@@ -132,7 +132,7 @@ function Navbar() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-lg hover:shadow-gray-400 ease-in duration-100">
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -141,14 +141,14 @@ function Navbar() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100">
+                  <div className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-lg hover:shadow-gray-400 ease-in duration-100">
                     <FaGithub />
                   </div>
                 </a>
                 <Link href="/#contact" scroll={false}>
                   <div
                     onClick={() => setNav(false)}
-                    className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100"
+                    className="border-2 rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-lg hover:shadow-gray-400 ease-in duration-100"
                   >
                     <FaRegEnvelope />
                   </div>
