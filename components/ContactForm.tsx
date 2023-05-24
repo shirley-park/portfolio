@@ -12,16 +12,7 @@ function ContactForm() {
   const [messageSent, setMessageSent] = useState(false)
 
   // Update inputs value
-  const handleParam = () => (e: ChangeEvent<HTMLInputElement>) => {
-    const name = e.target.name
-    const value = e.target.value
-    setQuery((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }))
-  }
-
-  const handleMessage = () => (e: ChangeEvent<HTMLTextAreaElement>) => {
+  const handleParam = () => (e: any) => {
     const name = e.target.name
     const value = e.target.value
     setQuery((prevState) => ({
@@ -107,7 +98,7 @@ function ContactForm() {
                 placeholder="Message"
                 required
                 value={query.message}
-                onChange={handleMessage()}
+                onChange={handleParam()}
               ></textarea>
             </div>
             <p className="text-sm pb-2 text-center pt-1">
