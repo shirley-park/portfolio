@@ -12,14 +12,15 @@ function ContactForm() {
   const [messageSent, setMessageSent] = useState(false)
 
   // Update inputs value
-  const handleParam = () => (e: any) => {
-    const name = e.target.name
-    const value = e.target.value
-    setQuery((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }))
-  }
+  const handleParam =
+    () => (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+      const name = e.target.name
+      const value = e.target.value
+      setQuery((prevState) => ({
+        ...prevState,
+        [name]: value,
+      }))
+    }
 
   // Form Submit function
   const formSubmit = (e: FormEvent) => {
