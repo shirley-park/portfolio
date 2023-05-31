@@ -8,7 +8,6 @@ import tsicon from '../public/assets/imgassets/typescript.png'
 import reacticon from '../public/assets/imgassets/react.png'
 import reduxicon from '../public/assets/imgassets/redux.png'
 import nodeicon from '../public/assets/imgassets/nodejs.png'
-import auth0icon from '../public/assets/imgassets/auth0.png'
 import sqlite3dbicon from '../public/assets/imgassets/sqlite3db.png'
 
 function nook() {
@@ -97,10 +96,6 @@ function nook() {
                 <Image src={sqlite3dbicon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">SQLite3</p>
               </div>
-              <div className="flex flex-col justify-center items-center">
-                <Image src={auth0icon} alt="/" width="50" height="50" />
-                <p className="text-sm pt-3">Auth0</p>
-              </div>
             </div>
             <br />
             <h3 className="mb-4">Next steps</h3>
@@ -110,12 +105,10 @@ function nook() {
                 The next step for this project is to add the ability to filter
                 elements/fittings by tags{' '}
               </li>
+              <li className="ml-8 py-2 cursor-default">Add auth using Auth0</li>
               <li className="ml-8 py-2 cursor-default">
                 Add a project timeline feature which allows users to set dates
                 for project milestones
-              </li>
-              <li className="ml-8 py-2 cursor-default">
-                Add subtle page animations using Framer motion
               </li>
             </ul>
           </div>
