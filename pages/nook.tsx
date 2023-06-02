@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import nookProjectImage from '../public/assets/projects/nookProjectImage2.png'
 import nookProjectImage4 from '../public/assets/projects/nookProjectImage4.png'
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 import tsicon from '../public/assets/imgassets/typescript.png'
 import reacticon from '../public/assets/imgassets/react.png'
 import reduxicon from '../public/assets/imgassets/redux.png'
@@ -34,19 +34,33 @@ function nook() {
             </div>
           </div>
           <div className="pt-6">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-start">
               <h2>Nook</h2>
-              <div className="w-44 border border-gray-300 rounded-full shadow-gray-400 p-3 hover:opacity-70 ease-in duration-100">
-                <a
-                  href="https://github.com/shirley-park/nook"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="flex justify-center items-center">
-                    <FaGithub />
-                    <p className="text-sm pl-2">View on Github</p>
-                  </div>
-                </a>
+              <div className="md:flex ">
+                <div className="w-44 border border-gray-300 rounded-full shadow-gray-400 p-3 hover:opacity-70 ease-in duration-100 mb-2 md:mr-4">
+                  <a
+                    href="https://this-is-nook.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="flex justify-center items-center">
+                      <FaExternalLinkAlt />
+                      <p className="text-sm pl-2">View demo</p>
+                    </div>
+                  </a>
+                </div>
+                <div className="w-44 border border-gray-300 rounded-full shadow-gray-400 p-3 hover:opacity-70 ease-in duration-100 mb-2">
+                  <a
+                    href="https://github.com/shirley-park/nook"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="flex justify-center items-center">
+                      <FaGithub />
+                      <p className="text-sm pl-2">View on Github</p>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
 
