@@ -55,7 +55,7 @@ function Projects() {
           <ProjectItem
             title="Nook"
             projectImage={nookProjectImage}
-            tech="React, Redux, Auth0, Sass"
+            tech="React, Redux, Sqlite3"
             projectUrl="nook"
             intro="A celebration of the spaces we live in."
             description="Chart your design inspiration and fittings for your home renovation projects."

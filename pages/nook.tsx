@@ -9,6 +9,7 @@ import reacticon from '../public/assets/imgassets/react.png'
 import reduxicon from '../public/assets/imgassets/redux.png'
 import nodeicon from '../public/assets/imgassets/nodejs.png'
 import sqlite3dbicon from '../public/assets/imgassets/sqlite3db.png'
+import sassicon from '../public/assets/imgassets/sass2.png'
 
 function nook() {
   return (
@@ -109,6 +110,10 @@ function nook() {
               <div className="flex flex-col justify-center items-center">
                 <Image src={sqlite3dbicon} alt="/" width="50" height="50" />
                 <p className="text-sm pt-3">SQLite3</p>
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <Image src={sassicon} alt="/" width="50" height="50" />
+                <p className="text-xs pt-3">Sass</p>
               </div>
             </div>
             <br />
