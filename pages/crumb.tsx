@@ -74,7 +74,7 @@ function nook() {
             </p>
             <br />
             <p>
-              This is built with React and uses Strapi as its headless CMS.This
+              This is built with React and uses Strapi as its headless CMS. This
               project is a work in progress and I am using it as a way to learn
               about building back-end and front-end features in ecommerce
               applications.
@@ -86,28 +86,58 @@ function nook() {
             <h3 className="mb-4">Tech used:</h3>
             <div className="grid grid-cols-3 lg:grid-cols-4 gap-8 border-b-2 pb-6">
               <div className="flex flex-col justify-center items-center">
-                <Image src={reacticon} alt="/" width="50" height="50" />
+                <Image
+                  src={reacticon}
+                  alt="React logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">React</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={reactQueryIcon} alt="/" width="50" height="50" />
+                <Image
+                  src={reactQueryIcon}
+                  alt="React query logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">React Query</p>
               </div>
 
               <div className="flex flex-col justify-center items-center">
-                <Image src={reduxicon} alt="/" width="50" height="50" />
+                <Image
+                  src={reduxicon}
+                  alt="Redux toolkit logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">Redux toolkit</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={nodeicon} alt="/" width="50" height="50" />
+                <Image
+                  src={nodeicon}
+                  alt="Node.js logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">Node.js</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={strapiIcon} alt="/" width="50" height="50" />
+                <Image
+                  src={strapiIcon}
+                  alt="Strapi logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">Strapi</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={materialUIIcon} alt="/" width="50" height="50" />
+                <Image
+                  src={materialUIIcon}
+                  alt="Material UI logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">Material UI</p>
               </div>
             </div>

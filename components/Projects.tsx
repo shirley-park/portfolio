@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 
 import nookProjectImage from '../public/assets/projects/nookProjectImage2.png'
 import crumbMob1 from '../public/assets/projects/crumbMob1.png'
+import oasis3 from '../public/assets/projects/oasis3.png'
 
 function Projects() {
   const router = useRouter()
@@ -43,12 +44,12 @@ function Projects() {
         <h2 className="py-2 mb-8 border-b-2">Projects</h2>
         <div className="p-4 md:p-14 mb-20 bg-[#f5f5f5] rounded-xl">
           <ProjectItem
-            title="Crumb"
-            projectImage={crumbMob1}
-            tech="React, Redux toolkit, React Query, Strapi"
-            projectUrl="crumb"
-            intro="A fullstack ecommerce site for an artisan bakery"
-            description="Project status: in progress"
+            title="Oasis"
+            projectImage={oasis3}
+            tech="Next.js, Tailwind, Zustand"
+            projectUrl="oasis"
+            intro="Focus and meet your goals while growing your oasis"
+            description="A productivity app where each successful focus session grows your oasis."
           />
         </div>
         <div className="p-4 md:p-14 mb-20 bg-[#f5f5f5] rounded-xl">
@@ -61,16 +62,16 @@ function Projects() {
             description="Chart your design inspiration and fittings for your home renovation projects."
           />
         </div>
-        {/* <div className="p-12 mb-20 bg-[#f5f5f5] rounded-md">
+        <div className="p-4 md:p-14 mb-20 bg-[#f5f5f5] rounded-xl">
           <ProjectItem
-            title="Not Salone Del Mobile"
-            projectImage={#}
-            tech="React, Redux, Auth0, Sass"
-            projectUrl="notSalone"
-            intro="A celebration of the spaces we live in."
-            description="Chart your design inspiration and fittings for your home renovation projects."
+            title="Crumb"
+            projectImage={crumbMob1}
+            tech="React, Redux toolkit, React Query, Strapi"
+            projectUrl="crumb"
+            intro="A fullstack ecommerce site for an artisan bakery"
+            description="Project status: in progress"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   )

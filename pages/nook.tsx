@@ -92,27 +92,52 @@ function nook() {
             <h3 className="mb-4">Tech used:</h3>
             <div className="grid grid-cols-3 lg:grid-cols-4 gap-8 border-b-2 pb-6">
               <div className="flex flex-col justify-center items-center">
-                <Image src={tsicon} alt="/" width="50" height="50" />
+                <Image
+                  src={tsicon}
+                  alt="Typescript logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">Typescript</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={reacticon} alt="/" width="50" height="50" />
+                <Image
+                  src={reacticon}
+                  alt="React logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">React</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={nodeicon} alt="/" width="50" height="50" />
+                <Image
+                  src={nodeicon}
+                  alt="Node.js logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">Node.js</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={reduxicon} alt="/" width="50" height="50" />
+                <Image
+                  src={reduxicon}
+                  alt="Redux logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">Redux</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={sqlite3dbicon} alt="/" width="50" height="50" />
+                <Image
+                  src={sqlite3dbicon}
+                  alt="SQLite 3 logo"
+                  width="50"
+                  height="50"
+                />
                 <p className="text-sm pt-3">SQLite3</p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <Image src={sassicon} alt="/" width="50" height="50" />
+                <Image src={sassicon} alt="Sass logo" width="50" height="50" />
                 <p className="text-xs pt-3">Sass</p>
               </div>
             </div>
