@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-
 import nookProjectImage from '../public/assets/projects/nookProjectImage2.png'
 import nookProjectImage4 from '../public/assets/projects/nookProjectImage4.png'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
@@ -87,7 +86,15 @@ function nook() {
               design and development.
             </p>
             <br />
-            <p className="border-b-2 pb-4"></p>
+            <div className="flex justify-center">
+              <iframe
+                src="https://player.vimeo.com/video/837232600?h=8272103f6e"
+                width="640"
+                height="360"
+                allowFullScreen
+                allow="autoplay; encrypted-media"
+              ></iframe>
+            </div>
             <br />
             <h3 className="mb-4">Tech used:</h3>
             <div className="grid grid-cols-3 lg:grid-cols-4 gap-8 border-b-2 pb-6">
