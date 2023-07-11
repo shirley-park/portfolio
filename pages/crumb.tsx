@@ -145,11 +145,8 @@ function nook() {
             <h3 className="mb-4">Next steps</h3>
             <ul className="list-disc border-b-2 pb-24">
               {' '}
-              <li className="text-md ml-8 py-2 cursor-default">
-                complete checkout process using Formik
-              </li>
               <li className="ml-8 py-2 cursor-default">
-                integrate Stripe for payment processings
+                integrate Stripe for payment processing
               </li>
             </ul>
           </div>
