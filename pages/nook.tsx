@@ -37,7 +37,7 @@ function nook() {
             <div className="flex justify-between items-start">
               <h2>Nook</h2>
               <div className="md:flex ">
-                <div className="w-44 border border-gray-300 rounded-full shadow-gray-400 p-3 hover:opacity-70 ease-in duration-100 mb-2 md:mr-4">
+                {/* <div className="w-44 border border-gray-300 rounded-full shadow-gray-400 p-3 hover:opacity-70 ease-in duration-100 mb-2 md:mr-4">
                   <a
                     href="https://this-is-nook.herokuapp.com/"
                     target="_blank"
@@ -48,7 +48,7 @@ function nook() {
                       <p className="text-sm pl-2">View demo</p>
                     </div>
                   </a>
-                </div>
+                </div> */}
                 <div className="w-44 border border-gray-300 rounded-full shadow-gray-400 p-3 hover:opacity-70 ease-in duration-100 mb-2">
                   <a
                     href="https://github.com/shirley-park/nook"
