@@ -28,11 +28,10 @@ function About() {
             experiences.
           </p>
           <p className="py-2">
-            I am an adaptable team member, known for my empathy and commitment
-            to making a positive impact on those around me.
+            I am an adaptable team member, committed to making a positive impact on those around me.
           </p>
           <p className="py-2">
-            I am currently learning <span className="underline">Next.js</span>{' '}
+            I am currently learning <span className="underline">Go</span>{' '}
             to supplement my JavaScript and React skillset and I&apos;m looking
             forward to learning new languages and skills in an agile development
             team.
