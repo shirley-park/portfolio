@@ -50,13 +50,6 @@ function Navbar() {
             <Link href="/#projects" scroll={false}>
               <li className="ml-10 hover:border-b">Projects</li>
             </Link>
-            <a
-              href="/assets/s-park-CV.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <li className="ml-10 hover:border-b">CV</li>
-            </a>
             <Link href="/#contact" scroll={false}>
               <li className="ml-10 hover:border-b">Contact</li>
             </Link>
@@ -110,13 +103,6 @@ function Navbar() {
                   Projects
                 </li>
               </Link>
-              <a
-                href="/assets/shirleypark-cv.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <li className="py-4">CV</li>
-              </a>
               <Link href="/#contact" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4">
                   Contact
