@@ -11,8 +11,7 @@ function Contact() {
 
       <div className="max-w-[1240px] mx-auto w-[80%] md:w-[60%] lg:w-[50%] h-full px-2">
         <p className="text-md pb-2">
-          Feel free to reach out to me on LinkedIn, or drop me a line using the
-          form below. I will get back to you as soon as I can 😊{' '}
+          Feel free to reach out to me on LinkedIn!
         </p>
 
         <div className="flex justify-center my-4 w-full pb-6">
@@ -26,73 +25,6 @@ function Contact() {
             </div>
           </a>
         </div>
-        <ContactForm />
-        {/* <div className="w-full h-full shadow-2xl shadow-gray-400 rounded-xl p-4">
-          <div className="flex flex-col lg:p-4 h-full ">
-            <section className="p-4">
-              <form
-                action="https://getform.io/f/c9f7453f-a2c3-4f4b-945a-485e84b8f114"
-                // onSubmit={formSubmit}
-                method="POST"
-              >
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm hidden">Name</label>
-                    <input
-                      className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
-                      type="text"
-                      name="name"
-                      placeholder="Full name"
-                      required
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm hidden">Email</label>
-                    <input
-                      className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm hidden">Subject</label>
-                  <input
-                    className="border border-gray-300 rounded-lg p-3 flex font-light text-sm"
-                    type="text"
-                    name="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm hidden">Message</label>
-                  <textarea
-                    className="w-full border border-gray-300 rounded-lg p-3 font-light text-sm"
-                    rows={10}
-                    name="message"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-
-                <div className="flex justify-center">
-                  <button
-                    // onClick={handleClick}
-                    role="submit"
-                    className="w-[40%] p-4 mt-4 font-light text-sm bg-slate-400 text-white hover:scale-105 ease-in duration-100 shadow-md shadow-gray-400"
-                    type="submit"
-                  >
-                    {/* Send */}
-        {/* {sending ? <CircularProgress size="1rem" /> : 'Send'}
-                  </button>
-                </div>
-              </form>
-            </section>
-          </div>
-        </div> */}
       </div>
     </div>
   )
